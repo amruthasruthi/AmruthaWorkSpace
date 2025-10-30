@@ -1,0 +1,20 @@
+ h3{
+    color :red;
+ }
+ h4,h5{
+    color :blue;
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ #creator{
+    font-size: larger;
+    color: brown;
+ }
+ .pclass{
+    background-color: antiquewhite;
+    margin: 1%;
+ }
+ *{
+    background-color: aquamarine;
+    width: 600 px;
+ }

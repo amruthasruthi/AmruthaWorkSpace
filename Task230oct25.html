@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            /* background-color: aliceblue; */
+        }
+        table,tr,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        th{
+            background-color: #D10023;
+        }
+         tr:nth-child(even) {
+            background-color:#FF5C77; 
+         }
+
+        tr:nth-child(odd) {
+             background-color: #FFC0CB; 
+        }
+        th,td{
+            text-align: center;
+        }
+        table{
+            width: 1000px;
+            height: 200px;
+            background-color: white;
+        }
+        .tablediv{
+            background-color: yellow;
+            width: 1200px;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+    </style>
+ </head>
+ <body>
+    <div class="tablediv">
+    <table>
+        <tr>
+            <th>Reg_id</th>
+            <th>Subject</th>
+            <th>Hobby</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td><a href="https://www.learn-c.org/">C</a></td>
+            <td>Reading</td>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td><a href="https://www.geeksforgeeks.org/java/java/">JAVA</a></td>
+            <td>Singing</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td><a href="https://learn.microsoft.com/en-us/dotnet/csharp/">C#</a></td>
+            <td>Cricket</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td><a href="https://www.php.net/">PHP</a></td>
+            <td>Football</td>
+        </tr>
+    </table>
+    </div>
+ </body>
+ </html>
