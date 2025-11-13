@@ -1,0 +1,155 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #maintab,td,th{
+            border: 1px solid black;
+        }
+        #maintab{
+            width: 40%;
+            background-color: lightgreen;
+            margin: 10%;
+        }
+        #subtab{
+            border: 1px solid black;
+        }
+        #lbl{
+            text-align: center;
+        }
+        #ipt{
+            text-align: left;
+        }
+    </style>
+ </head>
+ <body>
+    <table id="maintab">
+      <tr>
+        <td id="lbl">FirstName</td>
+        <td colspan="5" id="ipt"><input type="text"></td>
+      </tr>
+      <tr>
+        <td id="lbl">LastName</td>
+        <td colspan="5" id="ipt"><input type="text"></td>
+      </tr>
+      <tr>
+        <td id="lbl">Photo</td>
+        <td colspan="5" id="ipt"><input type="file"></td>
+      </tr>
+      <tr>
+        <td id="lbl">DOB</td>
+        <td colspan="5" id="ipt"><input type="date"></td>
+     
+      </tr>
+      <tr>
+        <td id="lbl">Email</td>
+       <td colspan="5" id="ipt"><input type="email"></td>
+      
+      </tr>
+      <tr>
+        <td id="lbl">Mobile Number</td>
+        <td colspan="5" id="ipt"><input type="text"></td>
+     
+      </tr>
+      <tr>
+        <td id="lbl">Gender</td>
+        <td colspan="5" id="ipt"><input type="radio" name="gender">Male <input type="radio" name="gender"> Female</td>
+      
+      </tr>
+      <tr>
+        <td id="lbl">Address</td>
+        <td colspan="5" id="ipt"><textarea name="address" id="address" cols="30" rows="2"></textarea></td>
+     
+      </tr>
+      <tr>
+        <td id="lbl">City</td>
+        <td colspan="5" id="ipt"><input type="text"></td>
+       
+      </tr>
+      <tr>
+        <td id="lbl">Pincode</td>
+       <td colspan="5" id="ipt"><input type="text"></td>
+     
+      </tr>
+      <tr>
+        <td id="lbl">State</td>
+        <td colspan="5" id="ipt"><input type="text"></td>
+      
+      </tr>
+      <tr>
+        <td id="lbl">Country</td>
+        <td colspan="5" id="ipt"> 
+            <select name="" id="country">
+                <option value="">-- Select Country --</option>
+                <option value="India">India</option>
+                <option value="Brazil">Brazil</option>
+                <option value="China">China</option>
+                <option value="Japan">Japan</option>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <td id="lbl">Hobbies</td>
+        <td colspan="5" id="ipt"><input type="checkbox">Singing <input type="checkbox">Drawing</td>
+       
+      </tr>
+      <tr>
+        <td rowspan="5" id="lbl">Qualification</td>
+        <td colspan="5" id="ipt">
+            <table id="subtab">
+                <tr>
+                    <th>SlNo</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year Of Passing</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Class 10</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class 12</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Degree</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Post Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </td>
+      </tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr>
+        <td id="lbl">Courses Applied For</td>
+        <td colspan="5" id="ipt"><input type="radio">BSC<input type="radio">BCA <input type="radio">BA</td>
+
+      </tr>
+      <tr>
+        <td colspan="6" id="lbl"><button>Ok</button> <button>Reset</button></td>
+
+      </tr>
+    </table>
+ </body>
+ </html>

@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-container{
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .image-container img{ 
+            width: 100%;
+            height: 100%;
+            transition: transform 0.5s ease;
+
+        }
+         .image-container:hover img{
+            /* 20% bigger */
+            transform: scale(1.2);
+           /* 1 means the original size.
+              > 1 makes it bigger.
+              < 1 makes it smaller. */
+           /* makes it 80% of the original size.decreasing */
+           /* transform: scale(0.8); */
+            /* Move right by 100px */
+             /* transform: translate(100px, 0); */
+
+
+
+
+             /* transform: translateX(50px) scale(1.2) rotate(10deg); */
+
+         }
+    </style>
+ </head>
+ <body>
+    <div class="image-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE8w-L_3ihzNEcYK-ThrsQGi5i-CDuhT_EmLiW1U1IY6E4DsS7WEI8wLkT6pk1POYEFzOK9LjjjE22aF8_XRkhPoWDPLYQm2YgE-DtOQ&s=10" alt="">
+    </div>
+</body>
+ </html>

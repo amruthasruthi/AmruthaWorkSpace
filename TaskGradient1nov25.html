@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 60%;
+            height: 450px;
+            border: 1px solid black;
+            margin: 300px 200px 400px 200px;
+            border-radius: 25%;
+            background-image: linear-gradient(to right, red ,blueviolet,blue);
+        }
+        table{
+            width: 60%;
+            height: 250px;
+            margin-left:25%;
+            margin-top: 10%;
+           
+        }
+        tr{
+            padding-top: 10%;
+        }
+        #btn{
+            width: 20%;
+            height: 30px;
+            border: 1px solid black;
+            border-radius: 20%;
+            background-image: linear-gradient(to right,green,yellow,pink);
+        }
+        #lbl{
+            font-size: large;
+            font-weight: bold;
+            color: white;
+        }
+        #txt1{
+             width: 50%;
+            height: 30px;
+        }
+    </style>
+ </head>
+ <body>
+    <div>
+        <form action="">
+        <table>
+            <tr>
+                <td><label for="Username" id="lbl">Username</label></td>
+                <td><input type="email" id="txt1" required></td>
+            </tr>
+            <tr>
+                <td><label for="Password" id="lbl">Password</label></td>
+                <td><input type="password" id="txt1" required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" id ="btn">
+                    <button id="btn">Cancel</button>
+                </td>
+            </tr>
+        </table>
+        </form>
+    </div>
+ </body>
+ </html>

@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper{
+        max-width:900px;
+        margin:auto;
+        background-color: aqua;
+        display: grid;
+        grid-template-columns: 2fr 1fr 3fr;
+         grid-auto-rows: 200px;
+         grid-row-gap: 20px;
+         grid-column-gap: 30px;
+         /* grid-template-columns: 2fr 2fr 2fr; */
+    }
+    .grid-item1{
+        /* grid-column-start: 1;
+        grid-column-end: 3; */
+        /* grid-row-start: 3;
+        grid-row-end: 3; */
+        grid-area: 2/2/3/3;
+        background-color:blue;
+    }
+    </style>
+    
+ </head>
+ <body>
+    <div class="wrapper">
+        <div class="grid-item1">1</div>
+        <div class="grid-item1">2</div>
+        <div class="grid-item1">3</div>
+        <div class="grid-item1">4</div>
+        <div class="grid-item1">5</div>
+        <div class="grid-item1">6</div>
+        <div class="grid-item1">7</div>
+        <div class="grid-item1">8</div>
+        <div class="grid-item1">9</div>
+    </div>
+
+ </body>
+ </html>

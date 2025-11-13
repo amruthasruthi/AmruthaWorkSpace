@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* *{
+        height: 100vh;
+       } */
+        .img1{
+            width: 80%;
+            height: 600px;
+            margin-left: 10%;
+        }
+        img{
+            width: 80%;
+            height: 250px;
+        }
+        .container{
+            height: 100vh;
+        }
+        .parent{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 10%;
+            gap: 10px;
+        }
+        .div1{
+            flex: 1 1 300px;
+            justify-content: space-between;
+            transition: transform 0.3s ease;
+        }
+        .div1 img:hover{
+            transform: scale(1.2);
+        }
+        nav{
+            background-color: black;
+            width: 100%;
+            height: 30px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 10px;
+            position: sticky; 
+            top: 0;
+        }
+        .navlink{
+            list-style-type: none;
+           display: flex;
+           gap: 20px;
+           padding-right: 100px;
+
+        }
+        .navlink li a{
+            color: white;
+        }
+        .navlink li a:hover{
+            color: orange;
+        }
+    </style>
+ </head>
+ <body>
+    <nav>
+        <h3>WEBSITE</h3>
+        <ul class="navlink">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <img class="img1" src="https://www.health.com/thmb/OZgW2YQtFb9qJ3PbySNei3YdgPw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Health-Stocksy_txp5e95690asrw300_Medium_934585-e870449543284eed8aa4be52fc09a4ed.jpg" alt="">
+    </section>
+    <section>
+        <div class="container">
+            <div class="parent">
+                <div class="div1">
+                    <img src="https://www.health.com/thmb/OZgW2YQtFb9qJ3PbySNei3YdgPw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Health-Stocksy_txp5e95690asrw300_Medium_934585-e870449543284eed8aa4be52fc09a4ed.jpg" alt="">
+                    <p>"Orange" can refer to a citrus fruit, the color between yellow and red,<br>or the telecommunications.</p>
+                </div>
+                <div class="div1">
+                    <img src="https://www.health.com/thmb/OZgW2YQtFb9qJ3PbySNei3YdgPw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Health-Stocksy_txp5e95690asrw300_Medium_934585-e870449543284eed8aa4be52fc09a4ed.jpg" alt="">
+                    <p>"Orange" can refer to a citrus fruit, the color between yellow and red,<br>or the telecommunications.</p>
+                </div>
+                <div class="div1">
+                    <img src="https://www.health.com/thmb/OZgW2YQtFb9qJ3PbySNei3YdgPw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Health-Stocksy_txp5e95690asrw300_Medium_934585-e870449543284eed8aa4be52fc09a4ed.jpg" alt="">
+                    <p>"Orange" can refer to a citrus fruit, the color between yellow and red,<br>or the telecommunications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ </body>
+ </html>

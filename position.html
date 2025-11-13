@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            background-color: blanchedalmond;
+            /* position: static; */
+            width: 50%;
+            height: 100px;
+            position: relative;
+            left: 20px;
+            top: 20px;
+            right: 50px;
+            bottom: 20px;
+
+        }
+        .child{
+            position: absolute;
+            top: 50px;
+            left: 40px;
+            background-color: blue;
+            color: white;
+        }
+    </style>
+ </head>
+ <body>
+    <div class="div1">
+        <!-- position:Static -->
+         <div class="child">im absolute</div>
+    </div>
+ </body>
+ </html>
